@@ -1,4 +1,4 @@
-FROM ghcr.io/puppeteer/puppeteer:21.3.8
+FROM ghcr.io/puppeteer/puppeteer:24.9.0
 
 COPY ./ /usr/src/app
 WORKDIR /usr/src/app
@@ -8,7 +8,8 @@ USER root
 RUN chown -R pptruser:pptruser .
 
 RUN apt update
-RUN apt install -y xvfb
+RUN apt-get install -y \
+  xvfb 
 
 USER pptruser
 

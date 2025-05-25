@@ -11,12 +11,12 @@
     "dateformat": "^5.0.3",
     "dotenv": "^16.3.1",
     "lodash": "^4.17.21",
+    "natural": "^8.1.0",
     "node-imap": "^0.9.6",
-    "puppeteer": "^21.5.1",
+    "puppeteer": "^24.9.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "quoted-printable": "^1.0.1",
-    "string-similarity": "^4.0.4",
     "titleize": "^4.0.0",
     "vm": "^0.1.0",
     "xvfb": "^0.4.0",
@@ -28,7 +28,6 @@
     "@types/node": "^20.9.0",
     "@types/node-imap": "^0.9.3",
     "@types/quoted-printable": "^1.0.2",
-    "@types/string-similarity": "^4.0.2",
     "ts-node": "^10.9.1"
   }
 }
